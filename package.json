@@ -1,0 +1,25 @@
+{
+  "name": "hwl.oa.commonsdk",
+  "version": "1.0.37",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.9.0",
+    "eslint-loader": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "eslint-plugin-vue": "^7.2.0"
+  }
+}
